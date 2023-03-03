@@ -12,7 +12,7 @@ GetIt getIt = GetIt.instance;
 
 
  void init(){
-
+//ghgfh
    getIt.registerLazySingleton<AuthRemoteSource>(() => AppRemoteSourceImp());
    
    getIt.registerLazySingleton<AuthRepository>(() => AuthRepositoryImp(authRemoteSource: getIt<AuthRemoteSource>()));
